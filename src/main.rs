@@ -5,7 +5,6 @@ fn main() {
     linear_search(&unsorted_list, &target);
     let target:i8 = 0;
     linear_search(&unsorted_list, &target);
-
 }
 
 // ideal for short unsorted lists
