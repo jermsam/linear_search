@@ -14,7 +14,7 @@ fn linear_search (list:&[i8; 10], target: &i8) {
 
     for i in 0..list.len() {
         if list[i] == *target {
-            index = Some(i as i8)
+            index = Some(i as i8);
         }
     }
 
